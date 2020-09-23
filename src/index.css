@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap');
+
+body {
+  padding: 0; 
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.page {
+  margin: 0 15px;
+}
+
+.topbar {
+  background-color: #FF5A5F;
+}
+.topbar h1 {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+.title {
+  font-weight: 900;
+  color: #484848;
+  font-size: 1.4em;
+}
+
+.ranking {
+  display: flex;
+  overflow-x: auto;
+}
+
+.ranking article {
+  height: 230px;
+  margin: 0 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.ranking article:hover {
+  opacity: 1;
+}
+
+.ranking article h2, .ranking article h6 {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+.ranking article h2 {
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 170px;
+}
+
+.card-detail{
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 2px #ccc; 
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-detail img{
+  width: 100%;
+}
+
+.card-detail p{
+  font-size: 1.35em;
+  font-weight: 300;
+  color: #767676;
+  padding: 0 15px;
+}
+
+.button{
+  width: 100%;
+  margin: 15px 0;
+  padding: 5px 0;
+  border-color: #ccc;
+  border-radius: 5px;
+  background-color: #00A699;
+  color: #fff;
+  font-size: 1.1em;
+  opacity: 0.9;
+  outline: none;
+}
+
+.button:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.button:disabled{
+  background-color: #ccc;
+  cursor: no-drop;
+}
+
+.link {
+  text-decoration: none;
+ }
+
+ /* Global housing*/
+
+ .link-global-housing{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+ }
+
+ .link-global-housing .col2 h2, .link-global-housing  .col2 h5 {
+  padding-top: 6px;
+  margin: 0;
+  color: black;
+}
+
+.link-global-housing  .col2 h6{
+  padding-top: 6px;
+  margin: 0;
+  color: grey;
+}
+
+
+.link-global-housing .col2 h2 {
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 170px;
+}
+
+ .card{
+   width: 50%;
+   display: flex;
+ }
+
+ .col1{
+   width: 50%;
+ }
+
+ .col1 img{
+   width: 100%;
+ }
+
+ .col2{
+  width: 50%;
+  margin: 2%;
+ }
+
+ .star-section{
+  padding-top: 4px;
+  display: flex;
+ }
+
+ .star-icon{
+   width: 5%;
+ }
+
+ /*  Experiences*/
+ .housing{
+   display: flex;
+   border: 1 px solid #f2f2f2;
+   box-shadow: 1px 2px 2px #ccc;
+   margin: 10px 0px;
+   border-radius: 8px;
+   overflow: hidden;
+ }
+
+ .housing img{
+   width: 200px;
+ }
+
+ .housing div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 10px;
+ }
+
+ .housing h3{
+  margin: 0;
+  font-weight: 300;
+ } 
+ 
+ .housing h6{
+   margin: 0;
+   display: flex;
+ }
+
+ .score{
+   display: flex;
+   align-items: center;
+ }
+
+ .score div{
+   display: flex;
+   flex-direction: row;
+   margin: 0px;
+   padding: 0px;
+ }
+
+ .score p{
+  margin: 0px;
+  padding: 0px;
+ }
+
+ .score div i{
+   color: lightseagreen;
+ }
+
+ /*Page Booking*/
+ .booking-form{
+   margin: 15px 0px;
+ }
+
+ 
+ .booking-form div{
+   border: 1px solid #ccc;
+   background: #f2f2f2;
+   margin: 10px 0px;
+   border-radius: 3px;
+   padding: 0px 10px;
+ }
+
+
+.booking-form input{
+  width: 100%;
+  padding: 15px;
+  font-weight: 300;
+  outline: none;
+  font-size: 1em;
+  background: transparent;
+  border: none;
+  margin: 4px 0px;
+  text-transform: uppercase;
+  font-family: 'Lato';
+}
+
+.booking-form label{
+  color: #777;
+  font-size: 0.95em;
+}
+
+ 
